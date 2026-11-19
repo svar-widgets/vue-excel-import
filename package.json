@@ -1,6 +1,6 @@
 {
 	"name": "@svar-ui/vue-excel-import",
-	"version": "2.6.0",
+	"version": "2.7.1",
 	"description": "SVAR Vue Excel Import library",
 	"productTag": "excel-import",
 	"type": "module",
@@ -35,13 +35,12 @@
 		"dist-full/index.css"
 	],
 	"dependencies": {
-		"@svar-ui/core-locales": "2.6.0",
-		"@svar-ui/excel-import-locales": "2.6.0",
-		"@svar-ui/excel-import-store": "2.6.0",
-		"@svar-ui/lib-dom": "0.13.1",
-		"@svar-ui/lib-vue": "1.1.0",
-		"@svar-ui/lib-state": "1.9.7",
-		"@svar-ui/vue-core": "2.6.0"
+		"@svar-ui/excel-import-locales": "2.7.1",
+		"@svar-ui/excel-import-store": "2.7.1",
+		"@svar-ui/lib-dom": "0.14.2",
+		"@svar-ui/lib-vue": "1.1.1",
+		"@svar-ui/lib-state": "1.10.1",
+		"@svar-ui/vue-core": "2.6.2"
 	},
 	"peerDependencies": {
 		"vue": "^3.0.0"

@@ -3,5 +3,5 @@ defineOptions({ name: "WidgetComponent" });
 </script>
 
 <template>
-	<div class="widget">stub</div>
+  <div class="widget">stub</div>
 </template>

@@ -13,9 +13,9 @@ setWizardContext(ctx);
 </script>
 
 <template>
-	<Locale :words="en" :optional="true">
-		<ModalOverlay :onclose="() => ctx.close()">
-			<Layout />
-		</ModalOverlay>
-	</Locale>
+  <Locale :words="en" :optional="true">
+    <ModalOverlay :onclose="() => ctx.close()">
+      <Layout />
+    </ModalOverlay>
+  </Locale>
 </template>

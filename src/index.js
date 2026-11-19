@@ -13,13 +13,8 @@ export { default as StageProcessing } from "./components/stages/StageProcessing.
 export { default as StageMapping } from "./components/stages/StageMapping.vue";
 export { default as StageComplete } from "./components/stages/StageComplete.vue";
 export {
-	WizardContext,
-	setWizardContext,
+  WizardContext,
+  setWizardContext,
 } from "./components/useWizardState.js";
 
-export {
-	ExcelImport,
-	Willow,
-	WillowDark,
-	version,
-};
+export { ExcelImport, Willow, WillowDark, version };

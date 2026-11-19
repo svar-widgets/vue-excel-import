@@ -10,17 +10,17 @@ import "@svar-ui/vue-core/style.css";
 import "@svar-ui/vue-layout/style.css";
 
 const app = createApp(Index, {
-	publicName: "Excel Import",
-	productTag: "excel-import",
-	productLink: "excel-import",
-	skins: [
-		{ id: "willow", label: "Willow", component: Willow },
-		{ id: "willow-dark", label: "Dark", component: WillowDark },
-	],
-	Button,
-	Segmented,
-	Globals,
-	Locale,
+  publicName: "Excel Import",
+  productTag: "excel-import",
+  productLink: "excel-import",
+  skins: [
+    { id: "willow", label: "Willow", component: Willow },
+    { id: "willow-dark", label: "Dark", component: WillowDark },
+  ],
+  Button,
+  Segmented,
+  Globals,
+  Locale,
 });
 
 app.use(router);
